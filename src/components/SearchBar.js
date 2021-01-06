@@ -6,7 +6,7 @@ import "../App.css";
 
 export default function SearchBar() {
   //state
-  const [query, setQuery] = useState([]);
+  const [query, setQuery] = useState('');
 
   const handleSearch = (e) => {
     Data.Data.forEach((data) => {
@@ -45,7 +45,7 @@ export default function SearchBar() {
       
     </form>
 
-    <div className='card-list'>
+    <div className='repo-list'>
       {query}
       </div>
     </>

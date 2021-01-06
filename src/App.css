@@ -27,3 +27,9 @@ output{
   color: black;
   margin-top: 5px;
 }
+
+.repo-list{
+  display: flex;
+  color: black;
+  margin-top: 5px;
+}
